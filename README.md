@@ -24,4 +24,34 @@ A minimal yet powerful **React Theme Toggle** application that allows users to s
 
 ---
 
+## ⚙️ How It Works
+
+1. A `useState` hook manages the current theme (`light` or `dark`)
+2. The `useEffect` hook checks local storage for a saved preference
+3. On toggle, the theme class is added to the `<html>` or `<body>` element
+4. The updated theme is saved to local storage
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/Prat260104/react-theme-toggle.git
+cd react-theme-toggle
+```
+
+#### 2.Install Dependencies
+
+```bash
+npm i
+```
+
+### 3.Start the dev server
+
+```bash
+npm run dev
+```
+
 
